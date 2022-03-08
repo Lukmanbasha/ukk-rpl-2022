@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-01 22:04:14 --> Invalid file: register.php
+#0 D:\UKK2022\ukk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 D:\UKK2022\ukk\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 D:\UKK2022\ukk\app\Controllers\Home.php(17): view('register')
+#3 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Home->register()
+#4 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#8 {main}

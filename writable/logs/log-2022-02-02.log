@@ -1,0 +1,6 @@
+CRITICAL - 2022-02-02 01:51:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\UKK2022\ukk\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\UKK2022\ukk\spark(45): require('D:\\UKK2022\\ukk\\...')
+#4 {main}

@@ -1,0 +1,108 @@
+CRITICAL - 2022-02-08 19:10:17 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:12:56 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:13:05 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:13:22 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:14:27 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:15:03 --> Class 'App\Controllers\User' not found
+#0 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#5 {main}
+CRITICAL - 2022-02-08 19:16:21 --> Class 'App\Models\BaseModel' not found
+#0 D:\UKK2022\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\UKK2022\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\UKK2022\\ukk\\...')
+#2 D:\UKK2022\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 D:\UKK2022\ukk\app\Controllers\Auth.php(16): spl_autoload_call('App\\Models\\User...')
+#5 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#10 {main}
+CRITICAL - 2022-02-08 19:17:57 --> Trying to access array offset on value of type bool
+#0 D:\UKK2022\ukk\app\Models\User_model.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\UKK2022\\ukk\\...', 9, Array)
+#1 D:\UKK2022\ukk\app\Controllers\Auth.php(16): App\Models\User_model::authenticate('23456', NULL)
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#7 {main}
+CRITICAL - 2022-02-08 19:45:33 --> Undefined variable: userdata
+#0 D:\UKK2022\ukk\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK2022\\ukk\\...', 4, Array)
+#1 D:\UKK2022\ukk\system\View\View.php(210): include('D:\\UKK2022\\ukk\\...')
+#2 D:\UKK2022\ukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK2022\ukk\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK2022\ukk\app\Controllers\Home.php(9): view('index')
+#5 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#10 {main}
+CRITICAL - 2022-02-08 19:46:00 --> Undefined variable: userdata
+#0 D:\UKK2022\ukk\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK2022\\ukk\\...', 4, Array)
+#1 D:\UKK2022\ukk\system\View\View.php(210): include('D:\\UKK2022\\ukk\\...')
+#2 D:\UKK2022\ukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK2022\ukk\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK2022\ukk\app\Controllers\Home.php(9): view('index')
+#5 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#10 {main}
+CRITICAL - 2022-02-08 19:46:03 --> Undefined variable: userdata
+#0 D:\UKK2022\ukk\app\Views\index.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\UKK2022\\ukk\\...', 4, Array)
+#1 D:\UKK2022\ukk\system\View\View.php(210): include('D:\\UKK2022\\ukk\\...')
+#2 D:\UKK2022\ukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\UKK2022\ukk\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 D:\UKK2022\ukk\app\Controllers\Home.php(9): view('index')
+#5 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#10 {main}
+CRITICAL - 2022-02-08 19:46:29 --> Invalid argument supplied for foreach()
+#0 D:\UKK2022\ukk\app\Models\User_model.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\UKK2022\\ukk\\...', 38, Array)
+#1 D:\UKK2022\ukk\app\Controllers\Home.php(21): App\Models\User_model::findByNIK('23456')
+#2 D:\UKK2022\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#3 D:\UKK2022\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\UKK2022\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\UKK2022\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\UKK2022\ukk\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK2022\\ukk\\...')
+#7 {main}
